@@ -1,53 +1,188 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Rancho&display=swap");
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
-}
-
-.berita {
-  width: 400px;
-  margin: 1rem;
-  border-radius: 3px;
-  box-shadow: 1px 1px 4px black;
-  border: 1px solid white;
-}
-
-.berita img {
-  max-width: 100%;
-}
-
-.berita-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: flex-start;
-}
-
-.berita-info {
-  padding: 5px;
-  margin: 5px;
-}
-
-.berita-info h5 {
-  margin-bottom: 10px;
-}
-
-.berita-info h6 {
-  color: gray;
-  font-size: 14px;
-}
-
-.button {
-  background-color: #0d6efd;
+html,
+body {
+  font-family: "Rancho", cursive;
+  background-color: pink;
   color: white;
-  border-radius: 3px;
-  border: 1px solid #0d6efd;
-  height: 35px;
-  padding: 3px;
+}
+
+.jumbotron {
+  padding: 60px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  background: url("./TugasRouting/gambar/headerpic.jpg");
+  background-size: 100%;
+}
+
+.wercurry {
+  margin-bottom: 10px;
+  color: white;
+  margin-left: 15px;
+  font-size: 70px;
+  font-weight: bold;
+  text-shadow: 4px 4px 4px black;
+}
+
+.paragsatu {
+  color: white;
+  margin-left: 10px;
+  font-size: 24px;
+  text-shadow: 2px 2px black;
+}
+
+.ul-navbar {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  background-color: #212529;
+  height: 45px;
+  padding: 5px;
+  margin: 0;
+}
+
+.li-navbar {
+  list-style-type: none;
+  padding: 5px;
+  color: white;
+  font-size: 30px;
+  font-weight: 400;
+  margin: 10px;
+}
+
+.li-navbar:hover {
+  background-color: pink;
+  transition: 0.5s ease-in-out;
+  transition-delay: 0.3;
+  border-radius: 8px;
+}
+
+.a-navbar {
+  text-decoration: none;
+  color: white;
+}
+
+.container-main {
+  padding: 20px;
+  overflow: auto;
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+}
+
+.artikelhome {
+  background-color: #99116c;
+  margin-bottom: 40px;
+  box-shadow: 0 1px 8px 0 white;
+  border-radius: 5px;
+  padding: 5px;
+  width: 77%;
+  margin-right: 10px;
+}
+
+.asidehome {
+  border: 1px solid white;
+  border-radius: 8px;
+  max-height: 290px;
+  background-color: #212529;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 1px 8px 0 white;
+}
+
+.asidehome h4 {
   margin: 3px;
+}
+
+.tekskontak {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.tekshome {
+  font-size: 20px;
+  text-shadow: 2px 2px 4px black;
+  text-indent: 2em;
+  padding: 10px;
+}
+
+.container-footer {
+  background-color: #212529;
+  color: white;
+  padding: 10px;
+  height: 50px;
+  text-indent: 2em;
+}
+
+.container-main-tanaman {
+  padding: 20px;
+  overflow: auto;
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+}
+
+.li-tanaman {
+  border: 1px solid white;
+  border-radius: 8px;
+  margin: 10px;
+  list-style-type: none;
+  margin-right: 28px;
+  margin-left: 0px;
+}
+
+.li-tanaman:hover {
+  background-color: pink;
+  transition: 0.5s ease-in-out;
+  transition-delay: 0.3;
+  border-radius: 8px;
+}
+
+.semuaArtikel {
+  background-color: #99116c;
+  margin-bottom: 8px;
+  box-shadow: 0 1px 8px 0 white;
+  border-radius: 5px;
+  padding: 20px;
+  padding-top: 5px;
+  width: 70%;
+  margin-left: 10px;
+}
+
+.bunga {
+  font-size: 18px;
+  padding: 10px;
+  text-align: justify;
+}
+
+.judulbunga {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 2px 2px black;
+  padding: 10px;
+}
+
+.tekssidebar {
+  color: white;
+  text-decoration: none;
+}
+
+.asidetanaman {
+  border: 1px solid white;
+  border-radius: 8px;
+  max-height: 200px;
+  background-color: #212529;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 1px 8px 0 white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
